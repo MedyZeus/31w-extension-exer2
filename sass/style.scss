@@ -4,3 +4,13 @@
     border-left: 4px solid #005;
     background-color: #ddd;
 }
+
+.boite__modale {
+    background-color: red;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    top: 25vh;
+    left: 25vw;
+}

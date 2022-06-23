@@ -6,11 +6,13 @@
 }
 
 .boite__modale {
-    background-color: red;
+    background-color: #aaa;
     position: absolute;
     width: 50vw;
     height: 50vh;
     color: white;
+    border: 5px solid black;
+    border-radius: 8px;
     top: 25vh;
     left: 25vw;
     transform: scale(0);
@@ -29,4 +31,10 @@
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+.elBoiteContenu {
+    text-align: center;
+    margin-top: 25%;
+    font-size: 16pt;
 }

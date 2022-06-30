@@ -32,5 +32,5 @@ function genere_adresse() {
         $contenu .= '<button id="mon_bouton">OK</button>';
         return $contenu;
     }
-        add_shortcode('adr', 'genere_adresse');
+        add_shortcode('adresse', 'genere_adresse');
 ?>
